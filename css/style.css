@@ -52,7 +52,8 @@ nav ul li a:hover{
     padding: 26px 5%;
 }
 
-/* Introction to Discord section layout */
+/* Section layouts */
+/* Introduction to Discord */
 #introduction{
     position: relative;
     background-image:url("../img/jumbo.png");
@@ -69,27 +70,64 @@ nav ul li a:hover{
     transform: translate(-50%,-50%);
 }
 
+/* Second section */
+#second-section{
+    height:700px;
+    position: relative;
+    background-color: white;
+}
 
+.second-container{
+    margin:0 auto;
+    display: table;
+    clear: both;
+}
+
+.section-image{
+    float:left;
+    margin:130px 50px;
+}
+
+.text-container{
+    float:left;
+    margin-top: 70px;
+    width:350px;
+    overflow:hidden;
+}
+
+/* Third section */
+#third-section{
+    background-color: rgb(246,246,246);
+    height:700px;
+}
 /* Text layouts */
-.title{
+.first-paragraph{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.first-title{
+    color:white;
     text-align: center;
     font-size: 70px;
     font-weight: bold;
     padding-bottom:30px;
 }
 
+.title{
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom:30px;
+    color:black;
+    
+}
+
 .paragraph{
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 40px;
-}
-
-.title:first-of-type{
-    color:white;
-}
-
-.paragraph:nth-child(2){
-    color:white;
+    text-align: left;
+    font-size: 20px;
 }
 
 /* Buttons layout */
