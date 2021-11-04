@@ -1,10 +1,11 @@
+/* General layout */
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
-
+/* Header layout */
 header{
     background-color: rgb(42,94,232);
     clear:both;
@@ -20,6 +21,7 @@ header{
     margin: 15px 5%;
 }
 
+/* Navigation bar layout */
 nav{
     text-align: center;
     color: white;
@@ -50,6 +52,7 @@ nav ul li a:hover{
     padding: 26px 5%;
 }
 
+/* Introction to Discord section layout */
 #introduction{
     position: relative;
     background-image:url("../img/jumbo.png");
@@ -59,6 +62,7 @@ nav ul li a:hover{
 }
 
 .container{
+    width:50%;
     position:absolute;
     left:50%;
     top:50%;
@@ -67,10 +71,6 @@ nav ul li a:hover{
 
 
 /* Text layouts */
-.container{
-    width:50%;
-}
-
 .title{
     text-align: center;
     font-size: 70px;
