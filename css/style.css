@@ -25,6 +25,10 @@ header{
     margin: 15px 5%;
 }
 
+#logo:last-child{
+    margin:15px 0;
+}
+
 /* Navigation bar layout */
 nav{
     text-align: center;
@@ -216,7 +220,8 @@ footer{
 }
 
 footer ul{
-    padding-right:11%;
+    min-width: 10%;
+    padding-right:10%;
 }
 
 .cascade-menu{
@@ -263,4 +268,8 @@ footer div{
     float:right;
     margin-top:15px;
     margin-right:5%;
+}
+
+.blue.button:last-child{
+    margin-right:0;
 }
