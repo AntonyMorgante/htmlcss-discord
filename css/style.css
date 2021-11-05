@@ -192,7 +192,7 @@ nav ul li a:hover{
 .text-container{
     float:left;
     margin-top: 160px;
-    width:350px;
+    max-width:300px;
 }
 
 /* Button on bigger section layout */
@@ -224,6 +224,10 @@ footer section:last-child{
 }
 
 /* Vertical navigations bar */
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
 .cascade-menu{
     list-style-type: none;
     float:left;
